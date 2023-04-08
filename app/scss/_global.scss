@@ -47,6 +47,7 @@ body {
 	li{
 		margin: 0 15px;
 	}
+
 	button{
 		background-color: $title;
 		border: none;
@@ -63,5 +64,23 @@ body {
 	}
 }
 
+.info-email {
+	font-weight: 600;
+	font-size: 14px;
+	color: $title;
+	margin-bottom: 22px;
+	padding-left: 30px;
+	display: inline-block;
+	position: relative;
+	&::before{
+		content: '';
+		background-image: url(../images/envelope.svg);
+		position: absolute;
+		top: 9px;
+		left: 0;
+		width: 16px;
+		height: 12px;
+	}
+}
 
 
